@@ -22,7 +22,7 @@ as a discount).
 
 ## Class Digram
 
-- [Class Digram] - The class diagram of this project is located under the /RetailStoreDiscount/RetailStoreFab/RetailStoreDiscount.umlcd source path.
+- The class diagram of this project is located under the /RetailStoreDiscount/RetailStoreFab/RetailStoreDiscount.umlcd source path.
 
 ## Running the application locally
 
