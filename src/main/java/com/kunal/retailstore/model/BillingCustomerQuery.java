@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.kunal.retailstore.model;
 
 import java.util.List;
@@ -12,12 +9,10 @@ import com.kunal.retailstore.entity.OnlineShoppingCartItem;
 
 /**
  * @author kkunal 26-Aug-2019
- *
  */
 
 @Component
 public class BillingCustomerQuery {
-
 	private List<OnlineShoppingCartItem> onlineShoppingCartItem;
 	private Double totalBill;
 	private Double totalBillAfterRetailCustomerTypeDiscount;
@@ -31,7 +26,6 @@ public class BillingCustomerQuery {
 	public BillingCustomerQuery totalBill(Double totalBill) {
 		this.totalBill = totalBill;
 		return this;
-
 	}
 
 	public BillingCustomerQuery totalBillAfterRetailCustomerTypeDiscount(Double totalBillAfterRetailCustomerTypeDiscount) {
@@ -47,5 +41,4 @@ public class BillingCustomerQuery {
 	public Billing Build() {
 		return new Billing(onlineShoppingCartItem, totalBill, totalBillAfterRetailCustomerTypeDiscount, finalbillCost);
 	}
-
 }

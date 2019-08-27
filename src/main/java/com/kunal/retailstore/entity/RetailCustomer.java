@@ -1,22 +1,16 @@
-/**
- * 
- */
 package com.kunal.retailstore.entity;
 
 /**
  * @author kkunal 26-Aug-2019
- *
  */
 
 public class RetailCustomer {
-
 	private String firstName;
 	private String lastName;
 	private String phone;
 	private RetailCustomerType retailCustomerType;
 
 	public RetailCustomer(String firstName, String lastName, String phone, RetailCustomerType retailCustomerType) {
-		super();
 		setFirstName(firstName);
 		setLastName(lastName);
 		setPhone(phone);
@@ -93,5 +87,4 @@ public class RetailCustomer {
 		builder.append("]");
 		return builder.toString();
 	}
-
 }

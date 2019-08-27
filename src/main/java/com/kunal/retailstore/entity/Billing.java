@@ -1,29 +1,22 @@
-/**
- * 
- */
 package com.kunal.retailstore.entity;
 
 import java.util.List;
 
 /**
  * @author kkunal 26-Aug-2019
- *
  */
 
 public class Billing {
-
 	private List<OnlineShoppingCartItem> onlineShoppingCartItem;
 	private Double totalBill;
 	private Double totalBillAfterRetailCustomerTypeDiscount;
 	private Double totalBillCost;
 
 	public Billing() {
-		super();
 	}
 
 	public Billing(List<OnlineShoppingCartItem> onlineShoppingCartItem, Double totalBill,
 			Double totalBillAfterRetailCustomerTypeDiscount, Double totalBillCost) {
-		super();
 		this.onlineShoppingCartItem = onlineShoppingCartItem;
 		this.totalBill = totalBill;
 		this.totalBillAfterRetailCustomerTypeDiscount = totalBillAfterRetailCustomerTypeDiscount;
@@ -102,5 +95,4 @@ public class Billing {
 		builder.append("]");
 		return builder.toString();
 	}
-
 }

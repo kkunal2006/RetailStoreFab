@@ -6,10 +6,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
 @SpringBootApplication
-public class RetailStoreFabApplication {
-
+public class RetailStoreDiscountApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(RetailStoreFabApplication.class, args);
+		SpringApplication.run(RetailStoreDiscountApplication.class, args);
 	}
 	
 	@Bean 
@@ -18,5 +17,4 @@ public class RetailStoreFabApplication {
 	    builder.failOnUnknownProperties(true);
 	    return builder;
 	}
-
 }

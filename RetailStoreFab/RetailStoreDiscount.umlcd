@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_0qbEYMj4EemawaXfM0NlEQ">
+  <modelElement href="RetailStoreDiscount.uml#_05AS8Mj4EemawaXfM0NlEQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1Hy84cj4EemawaXfM0NlEQ" targetItem="_1H2nQMj4EemawaXfM0NlEQ" sourceItem="_1Hy84Mj4EemawaXfM0NlEQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1H2AMMj4EemawaXfM0NlEQ" sourceAnchor="0.0,139.0" targetAnchor="527.0,192.0" target="_1H2nQMj4EemawaXfM0NlEQ" source="_1IQ28Mj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_GT4Mj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aIDAMj4EemawaXfM0NlEQ" sourceX="-562" targetY="912"/>
+    <nameVisual xmi:id="_1H2AMcj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1aTCIMj4EemawaXfM0NlEQ" position="464.3078510430547,-6.438763862095129"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1H2AMsj4EemawaXfM0NlEQ" aggregationKind="NONE" name="retailCustomerType" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-geAMj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aR0AMj4EemawaXfM0NlEQ" position="-131.07879566871873,-21.264796708004496"/>
+      <visibility xmi:id="_1H2AM8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1H2ANMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1H2ANcj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_GT4cj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aTCIcj4EemawaXfM0NlEQ" position="408.42759091101584,890.6451176699647"/>
+      <visibility xmi:id="_1H2ANsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1H2AN8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1H98Acj4EemawaXfM0NlEQ" targetItem="_1ICNd8j4EemawaXfM0NlEQ" sourceItem="_1H98AMj4EemawaXfM0NlEQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1IA_UMj4EemawaXfM0NlEQ" sourceAnchor="565.0,220.0" targetAnchor="0.0,110.0" target="_1IdEMMj4EemawaXfM0NlEQ" source="_1ICNd8j4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_QE4Mj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aGN0Mj4EemawaXfM0NlEQ" sourceY="99" targetX="1609" targetY="1540"/>
+    <bendpoints xmi:id="_1aGN0cj4EemawaXfM0NlEQ" sourceX="-2437" sourceY="99" targetX="-828" targetY="1540"/>
+    <bendpoints xmi:id="_1aG04Mj4EemawaXfM0NlEQ" sourceX="-2437" sourceY="-1441" targetX="-828"/>
+    <stereotypes xmi:id="_1IA_Ucj4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_RTAMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1ICNcMj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1aOJoMj4EemawaXfM0NlEQ" position="2417.638115487703,182.40066502330205"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1ICNccj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_QE4cj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aMUccj4EemawaXfM0NlEQ" position="0.20771526415990138,26.041723669042085"/>
+      <visibility xmi:id="_1ICNcsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNc8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1ICNdMj4EemawaXfM0NlEQ" aggregationKind="NONE" name="onlineShoppingCartItem" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-a-cMj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aOwsMj4EemawaXfM0NlEQ" position="1511.9489016156895,1937.9216797252489"/>
+      <visibility xmi:id="_1ICNdcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNdsj4EemawaXfM0NlEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1II7IMj4EemawaXfM0NlEQ" sourceAnchor="0.0,131.0" targetAnchor="712.0,220.0" target="_1IdEMMj4EemawaXfM0NlEQ" source="_1IKJQMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_FFwcj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aHb8Mj4EemawaXfM0NlEQ" sourceX="-846" targetY="186"/>
+    <nameVisual xmi:id="_1II7Icj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1aQl4Mj4EemawaXfM0NlEQ" position="700.0199903270925,-12.493801892752444"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1IJiMMj4EemawaXfM0NlEQ" aggregationKind="NONE" name="onlineShoppingCategoryProducts" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-eo0cj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aPXwMj4EemawaXfM0NlEQ" position="-201.61517181866566,-26.82870157733214"/>
+      <visibility xmi:id="_1IJiM8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IJiMsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1IJiMcj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_FFwsj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aQl4cj4EemawaXfM0NlEQ" position="616.1353833876733,158.82827634065163"/>
+      <visibility xmi:id="_1IJiNcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IJiNMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1IOascj4EemawaXfM0NlEQ" targetItem="_1IQ28Mj4EemawaXfM0NlEQ" sourceItem="_1IOasMj4EemawaXfM0NlEQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1IZZ0cj4EemawaXfM0NlEQ" targetItem="_1IdEMMj4EemawaXfM0NlEQ" sourceItem="_1IZZ0Mj4EemawaXfM0NlEQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1IkY8cj4EemawaXfM0NlEQ" targetItem="_1IlnEMj4EemawaXfM0NlEQ" sourceItem="_1IkY8Mj4EemawaXfM0NlEQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1IrtsMj4EemawaXfM0NlEQ" sourceAnchor="641.0,168.0" targetAnchor="625.0,220.0" target="_1ICNd8j4EemawaXfM0NlEQ" source="_1I5JGcj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_TvQMj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aIqEMj4EemawaXfM0NlEQ" sourceX="2061" targetY="668"/>
+    <stereotypes xmi:id="_1IzCc8j4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_UWUMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1IzCcMj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1aVeYMj4EemawaXfM0NlEQ" position="-2001.9595836488238,-19.741297443185886"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1IzCccj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_TvQcj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aUQQMj4EemawaXfM0NlEQ" position="36.77630738371704,-43.174162411667794"/>
+      <visibility xmi:id="_1I2Fwcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I2FwMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1IzCcsj4EemawaXfM0NlEQ" aggregationKind="NONE" name="retailCustomerUserBill" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-nywMj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aWFcMj4EemawaXfM0NlEQ" position="-2029.4176366734096,625.4433511162799"/>
+      <visibility xmi:id="_1I2Fw8j4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1I2Fwsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1Iv_IMj4EemawaXfM0NlEQ" sourceAnchor="145.0,0.0" targetAnchor="0.0,96.0" target="_1H2nQMj4EemawaXfM0NlEQ" source="_1I5JGcj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_UWUcj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aJRIMj4EemawaXfM0NlEQ" sourceY="-1564" targetX="-75"/>
+    <stereotypes xmi:id="_1IzpgMj4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_U9YMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1IzCdMj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1aYhsMj4EemawaXfM0NlEQ" position="-31.615132107828913,1514.522303702537"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1IzCdcj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_UWUsj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aXTkMj4EemawaXfM0NlEQ" position="-20.229291155980036,-81.57548288233374"/>
+      <visibility xmi:id="_1I2Fxsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I2Fxcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1IzCdsj4EemawaXfM0NlEQ" aggregationKind="NONE" name="retailCustomer" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-oZ0Mj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aYhscj4EemawaXfM0NlEQ" position="-152.58274249489068,1500.541595344851"/>
+      <visibility xmi:id="_1I2FyMj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1I2Fx8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1Ix0UMj4EemawaXfM0NlEQ" sourceAnchor="641.0,138.0" targetAnchor="396.0,240.0" dashed="true" superClass="_1IlnEMj4EemawaXfM0NlEQ" subClass="_1I5JGcj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_09iNocj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aJRIcj4EemawaXfM0NlEQ" sourceX="1018" targetY="193"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1IybYcj4EemawaXfM0NlEQ" targetItem="_1I5JGcj4EemawaXfM0NlEQ" sourceItem="_1IybYMj4EemawaXfM0NlEQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1I0Qkcj4EemawaXfM0NlEQ" targetItem="_1I5JRsj4EemawaXfM0NlEQ" sourceItem="_1I0QkMj4EemawaXfM0NlEQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1I5JEMj4EemawaXfM0NlEQ" source="_1I5JGcj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_ShIcj4EemawaXfM0NlEQ"/>
+    <stereotypes xmi:id="_1I5JEcj4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_TIMMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1I5JEsj4EemawaXfM0NlEQ" text=""/>
+    <sourceRole xmi:id="_1I5JE8j4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_ShIsj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1I5JFMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I5JFcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1I5JFsj4EemawaXfM0NlEQ" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-nLsMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1I5JF8j4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1I5JGMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1JEIMMj4EemawaXfM0NlEQ" sourceAnchor="490.0,0.0" targetAnchor="1422.0,140.0" target="_1IdEMMj4EemawaXfM0NlEQ" source="_1JJAsMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_RTAcj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aJ4MMj4EemawaXfM0NlEQ" sourceY="-490" targetX="575"/>
+    <stereotypes xmi:id="_1JF9Ysj4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_ShIMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1JFWUMj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1aa98Mj4EemawaXfM0NlEQ" position="-27.125633227853314,334.29292029845567"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1JF9YMj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_RTAsj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aZv0Mj4EemawaXfM0NlEQ" position="-17.409052867428727,-76.77154531002878"/>
+      <visibility xmi:id="_1JHykcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JHykMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1JF9Ycj4EemawaXfM0NlEQ" aggregationKind="NONE" name="onlineShoppingCartItem" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-kvcMj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aa98cj4EemawaXfM0NlEQ" position="460.30859250106846,212.358048019745"/>
+      <visibility xmi:id="_1JIZocj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JIZoMj4EemawaXfM0NlEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1JdJwMj4EemawaXfM0NlEQ" sourceAnchor="0.0,204.0" targetAnchor="0.0,80.0" target="_1IdEMMj4EemawaXfM0NlEQ" source="_1JoI4Mj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_VkcMj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aKfQMj4EemawaXfM0NlEQ" sourceX="-602" targetX="-858" targetY="1730"/>
+    <bendpoints xmi:id="_1aKfQcj4EemawaXfM0NlEQ" sourceX="-602" sourceY="-1730" targetX="-858"/>
+    <stereotypes xmi:id="_1Jg0I8j4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_WLgMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1Jg0IMj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1adaMMj4EemawaXfM0NlEQ" position="571.8180739703846,855.7111130645462"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1Jg0Icj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_Vkccj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1acMEMj4EemawaXfM0NlEQ" position="-52.67493464278368,-23.413713733805935"/>
+      <visibility xmi:id="_1Jkegcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JkegMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1Jg0Isj4EemawaXfM0NlEQ" aggregationKind="NONE" name="onlineShoppingCartItem" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-sEMMj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aeBQMj4EemawaXfM0NlEQ" position="-334.99302151324514,1706.3271408468374"/>
+      <visibility xmi:id="_1Jkeg8j4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1Jkegsj4EemawaXfM0NlEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1Jdw0Mj4EemawaXfM0NlEQ" sourceAnchor="0.0,234.0" targetAnchor="320.0,0.0" target="_1I5JGcj4EemawaXfM0NlEQ" source="_1JoI4Mj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_WLgcj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aLGUMj4EemawaXfM0NlEQ" sourceX="-457" targetY="-211"/>
+    <stereotypes xmi:id="_1JhbMcj4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_XZoMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1Jg0JMj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1af2cMj4EemawaXfM0NlEQ" position="319.17438369679326,-4.600033552150762"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1Jg0Jcj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_WLgsj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1afPYMj4EemawaXfM0NlEQ" position="-59.64300465244355,-21.19691613136729"/>
+      <visibility xmi:id="_1Jkehsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1Jkehcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1JhbMMj4EemawaXfM0NlEQ" aggregationKind="NONE" name="retailCustomerBill" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-tSUMj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1agdgMj4EemawaXfM0NlEQ" position="191.26798301901226,-232.91363536212725"/>
+      <visibility xmi:id="_1JkeiMj4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1Jkeh8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1Je-8Mj4EemawaXfM0NlEQ" sourceAnchor="407.0,135.0" targetAnchor="595.0,220.0" target="_1ICNd8j4EemawaXfM0NlEQ" source="_1JoI4Mj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_XZocj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aLGUcj4EemawaXfM0NlEQ" sourceX="1488" targetY="190"/>
+    <stereotypes xmi:id="_1JhbNcj4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_YAsMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1JhbMsj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1ai5wMj4EemawaXfM0NlEQ" position="-1480.0353061223354,-20.996340570653047"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1JhbM8j4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_XZosj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1ahroMj4EemawaXfM0NlEQ" position="38.862938875968325,-43.51025021314672"/>
+      <visibility xmi:id="_1JlFksj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JlFkcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1JhbNMj4EemawaXfM0NlEQ" aggregationKind="NONE" name="billing" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-t5Ysj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1ai5wcj4EemawaXfM0NlEQ" position="-1497.3439942167656,146.64592354874185"/>
+      <visibility xmi:id="_1JlFlMj4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1JlFk8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1JfmAMj4EemawaXfM0NlEQ" sourceAnchor="407.0,405.0" targetAnchor="980.0,151.0" target="_1JJAsMj4EemawaXfM0NlEQ" source="_1JoI4Mj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_YAscj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aLtYMj4EemawaXfM0NlEQ" sourceX="2381" targetX="45" targetY="1230"/>
+    <bendpoints xmi:id="_1aLtYcj4EemawaXfM0NlEQ" sourceX="2381" sourceY="-1230" targetX="45"/>
+    <stereotypes xmi:id="_1JhbOcj4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_ZO0Mj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1JhbNsj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1al9EMj4EemawaXfM0NlEQ" position="-2221.934758093441,598.2661916237405"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1JhbN8j4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_YAssj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aku8Mj4EemawaXfM0NlEQ" position="32.77209461680866,-40.687562129390926"/>
+      <visibility xmi:id="_1JlFl8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JlFlsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1JhbOMj4EemawaXfM0NlEQ" aggregationKind="NONE" name="billingCustomerQuery" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-vHgsj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1amkIMj4EemawaXfM0NlEQ" position="-2103.7957352583608,1189.102467146379"/>
+      <visibility xmi:id="_1JlsoMj4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1JlFmMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1JgNEMj4EemawaXfM0NlEQ" sourceAnchor="233.0,0.0" targetAnchor="0.0,165.0" target="_1JVN8Mj4EemawaXfM0NlEQ" source="_1JoI4Mj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_ZO0cj4EemawaXfM0NlEQ"/>
+    <bendpoints xmi:id="_1aMUcMj4EemawaXfM0NlEQ" sourceY="-551" targetX="-409"/>
+    <stereotypes xmi:id="_1JiCQ8j4EemawaXfM0NlEQ" name="Reference">
+      <modelElement href="RetailStoreDiscount.uml#_0_Z14Mj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1JiCQMj4EemawaXfM0NlEQ" text="">
+      <visualProperties xmi:id="_1aoZUcj4EemawaXfM0NlEQ" position="-29.623490360873575,325.0583045283008"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1JiCQcj4EemawaXfM0NlEQ" aggregationKind="NONE" name="">
+      <modelElement href="RetailStoreDiscount.uml#_0_ZO0sj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1aoZUMj4EemawaXfM0NlEQ" position="-19.798669651072828,-79.08213831985927"/>
+      <visibility xmi:id="_1Jlso8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1Jlsosj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1JiCQsj4EemawaXfM0NlEQ" aggregationKind="NONE" name="retailCustomerQuery" navigable="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-wVoMj4EemawaXfM0NlEQ"/>
+      <visualProperties xmi:id="_1apncMj4EemawaXfM0NlEQ" position="-509.13955311005407,132.83983754875544"/>
+      <visibility xmi:id="_1Jlspcj4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1JlspMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1Hy84Mj4EemawaXfM0NlEQ" sourceConnectionVisual="_1Hy84cj4EemawaXfM0NlEQ" text="@author kkunal 26-Aug-2019" item="_1H2nQMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_Fs0Mj4EemawaXfM0NlEQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1H98AMj4EemawaXfM0NlEQ" sourceConnectionVisual="_1H98Acj4EemawaXfM0NlEQ" text="@author kkunal 26-Aug-2019" item="_1ICNd8j4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_EesMj4EemawaXfM0NlEQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1IOasMj4EemawaXfM0NlEQ" sourceConnectionVisual="_1IOascj4EemawaXfM0NlEQ" text="@author kkunal 26-Aug-2019" item="_1IQ28Mj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_GT4sj4EemawaXfM0NlEQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1IZZ0Mj4EemawaXfM0NlEQ" sourceConnectionVisual="_1IZZ0cj4EemawaXfM0NlEQ" text="@author kkunal 26-Aug-2019" item="_1IdEMMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_FFwMj4EemawaXfM0NlEQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1IkY8Mj4EemawaXfM0NlEQ" sourceConnectionVisual="_1IkY8cj4EemawaXfM0NlEQ" text="@author kkunal 26-Aug-2019" item="_1IlnEMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_HiAcj4EemawaXfM0NlEQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1IybYMj4EemawaXfM0NlEQ" sourceConnectionVisual="_1IybYcj4EemawaXfM0NlEQ" text="The Class RetailCustomerBill.&#xA; *&#xA;@author kkunal 26-Aug-2019" item="_1I5JGcj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_IJEMj4EemawaXfM0NlEQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1I0QkMj4EemawaXfM0NlEQ" sourceConnectionVisual="_1I0Qkcj4EemawaXfM0NlEQ" text="Gets the total bill cost for all the items purchased.&#xA;&#x9; *&#xA;&#x9; * @param onlineShoppingItemsList for the total items&#xA;&#x9; * @return the total bill cost" item="_1I5JRsj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0_IJEcj4EemawaXfM0NlEQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1HrBEMj4EemawaXfM0NlEQ" name="RetailStoreDiscountApplication">
+    <modelElement href="RetailStoreDiscount.uml#_06dEcMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1HrBEcj4EemawaXfM0NlEQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1HrBEsj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+      <modelElement href="RetailStoreDiscount.uml#_06e5oMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1HrBE8j4EemawaXfM0NlEQ" name="Annotations">
+      <modelElement href="RetailStoreDiscount.uml#_06jyIMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <visibility xmi:id="_1HrBFMj4EemawaXfM0NlEQ" label="+"/>
+    <operations xmi:id="_1HrBFcj4EemawaXfM0NlEQ" name="main" staticOperation="true">
+      <modelElement href="RetailStoreDiscount.uml#_06gHwsj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1HrBFsj4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_06hV4Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1HrBF8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1HrBGMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1HrBGcj4EemawaXfM0NlEQ" name="args">
+        <modelElement href="RetailStoreDiscount.uml#_06gu0Mj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1HrBGsj4EemawaXfM0NlEQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1HrBG8j4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1HrBHMj4EemawaXfM0NlEQ" name="objectMapperBuilder">
+      <modelElement href="RetailStoreDiscount.uml#_06h88cj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1HrBHcj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_06jLEMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1HrBHsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1HrBH8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1HrBIMj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_099rcMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1HrBIcj4EemawaXfM0NlEQ" name="Jackson2ObjectMapperBuilder">
+          <modelElement href="RetailStoreDiscount.uml#_09OEkcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1H2nQMj4EemawaXfM0NlEQ" comments="_1Hy84Mj4EemawaXfM0NlEQ" targetConnectionVisual="_1Hy84cj4EemawaXfM0NlEQ" name="RetailCustomer" associationsIn="_1H2AMMj4EemawaXfM0NlEQ _1Iv_IMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_0637MMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1H2nQcj4EemawaXfM0NlEQ" position="-1762.0,6.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1H2nQsj4EemawaXfM0NlEQ" label="+"/>
+    <attributes xmi:id="_1H2nQ8j4EemawaXfM0NlEQ" name="firstName">
+      <modelElement href="RetailStoreDiscount.uml#_0-fP4Mj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1H2nRMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1H2nRcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1H2nRsj4EemawaXfM0NlEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1H2nR8j4EemawaXfM0NlEQ" name="lastName">
+      <modelElement href="RetailStoreDiscount.uml#_0-f28Mj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1H2nSMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1H2nScj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1H2nSsj4EemawaXfM0NlEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1H2nS8j4EemawaXfM0NlEQ" name="phone">
+      <modelElement href="RetailStoreDiscount.uml#_0-f28cj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1H2nTMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1H2nTcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1H2nTsj4EemawaXfM0NlEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1H2nT8j4EemawaXfM0NlEQ" name="retailCustomerType">
+      <modelElement href="RetailStoreDiscount.uml#_0-geAMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1H2nUMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1H2nUcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1H2nUsj4EemawaXfM0NlEQ" name="RetailCustomerType">
+        <modelElement href="RetailStoreDiscount.uml#_06-o4Mj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1H2nU8j4EemawaXfM0NlEQ" name="toString">
+      <modelElement href="RetailStoreDiscount.uml#_066-gMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1H2nVMj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_067lkMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1H2nVcj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_068MoMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1H2nVsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1H2nV8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1H2nWMj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_066-gcj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1H2nWcj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1H2nWsj4EemawaXfM0NlEQ" name="RetailCustomer">
+      <modelElement href="RetailStoreDiscount.uml#_09VZUMj4EemawaXfM0NlEQ"/>
+      <keywords xmi:id="_1H2nW8j4EemawaXfM0NlEQ" keyword="create"/>
+      <visibility xmi:id="_1H2nXMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1H2nXcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1H2nXsj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09WAY8j4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1H2nX8j4EemawaXfM0NlEQ" name="RetailCustomer">
+          <modelElement href="RetailStoreDiscount.uml#_0637MMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1H2nYMj4EemawaXfM0NlEQ" name="firstName">
+        <modelElement href="RetailStoreDiscount.uml#_09VZUcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1H2nYcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1H2nYsj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1H2nY8j4EemawaXfM0NlEQ" name="lastName">
+        <modelElement href="RetailStoreDiscount.uml#_09VZUsj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1H2nZMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1H2nZcj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1H2nZsj4EemawaXfM0NlEQ" name="phone">
+        <modelElement href="RetailStoreDiscount.uml#_09VZU8j4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1H2nZ8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1H2naMj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1H2nacj4EemawaXfM0NlEQ" name="retailCustomerType">
+        <modelElement href="RetailStoreDiscount.uml#_09WAYMj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1H2nasj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1H2na8j4EemawaXfM0NlEQ" name="RetailCustomerType">
+          <modelElement href="RetailStoreDiscount.uml#_06-o4Mj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1ICNd8j4EemawaXfM0NlEQ" comments="_1H98AMj4EemawaXfM0NlEQ" targetConnectionVisual="_1H98Acj4EemawaXfM0NlEQ" name="Billing" associationsIn="_1IrtsMj4EemawaXfM0NlEQ _1Je-8Mj4EemawaXfM0NlEQ" associationsOut="_1IA_UMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_06kZMMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1ICNeMj4EemawaXfM0NlEQ" position="95.0,946.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1ICNecj4EemawaXfM0NlEQ" label="+"/>
+    <attributes xmi:id="_1ICNesj4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+      <modelElement href="RetailStoreDiscount.uml#_0-a-cMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1ICNe8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNfMj4EemawaXfM0NlEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1ICNfcj4EemawaXfM0NlEQ" name="OnlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_06tjIMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1ICNfsj4EemawaXfM0NlEQ" name="totalBill">
+      <modelElement href="RetailStoreDiscount.uml#_0-cMkMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1ICNf8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNgMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1ICNgcj4EemawaXfM0NlEQ" name="Double">
+        <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1ICNgsj4EemawaXfM0NlEQ" name="totalBillAfterRetailCustomerTypeDiscount">
+      <modelElement href="RetailStoreDiscount.uml#_0-czoMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1ICNg8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNhMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1ICNhcj4EemawaXfM0NlEQ" name="Double">
+        <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1ICNhsj4EemawaXfM0NlEQ" name="totalBillCost">
+      <modelElement href="RetailStoreDiscount.uml#_0-czocj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1ICNh8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNiMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1ICNicj4EemawaXfM0NlEQ" name="Double">
+        <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1ICNisj4EemawaXfM0NlEQ" name="Billing">
+      <modelElement href="RetailStoreDiscount.uml#_06mOYMj4EemawaXfM0NlEQ"/>
+      <keywords xmi:id="_1ICNi8j4EemawaXfM0NlEQ" keyword="create"/>
+      <stereotypes xmi:id="_1ICNjMj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_06ncgMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1ICNjcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNjsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1ICNj8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_06ncgcj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1ICNkMj4EemawaXfM0NlEQ" name="Billing">
+          <modelElement href="RetailStoreDiscount.uml#_06kZMMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1ICNkcj4EemawaXfM0NlEQ" name="toString">
+      <modelElement href="RetailStoreDiscount.uml#_06oqoMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1ICNksj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_06pRscj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1ICNk8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_06p4wMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1ICNlMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNlcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1ICNlsj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_06pRsMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1ICNl8j4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1ICNmMj4EemawaXfM0NlEQ" name="Billing">
+      <modelElement href="RetailStoreDiscount.uml#_0-AHsMj4EemawaXfM0NlEQ"/>
+      <keywords xmi:id="_1ICNmcj4EemawaXfM0NlEQ" keyword="create"/>
+      <visibility xmi:id="_1ICNmsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ICNm8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IC0gMj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-BV0sj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1IC0gcj4EemawaXfM0NlEQ" name="Billing">
+          <modelElement href="RetailStoreDiscount.uml#_06kZMMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IC0gsj4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_0-AuwMj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IC0g8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IC0hMj4EemawaXfM0NlEQ" name="List">
+          <modelElement href="RetailStoreDiscount.uml#_09PSsMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1IC0hcj4EemawaXfM0NlEQ" name="totalBill">
+        <modelElement href="RetailStoreDiscount.uml#_0-Auwcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IC0hsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IC0h8j4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1IC0iMj4EemawaXfM0NlEQ" name="totalBillAfterRetailCustomerTypeDiscount">
+        <modelElement href="RetailStoreDiscount.uml#_0-Auwsj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IC0icj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IC0isj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1IC0i8j4EemawaXfM0NlEQ" name="totalBillCost">
+        <modelElement href="RetailStoreDiscount.uml#_0-Auw8j4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IC0jMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IC0jcj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_1IKJQMj4EemawaXfM0NlEQ" name="OnlineShoppingCategoryProducts" associationsOut="_1II7IMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_061e8Mj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1IKJQcj4EemawaXfM0NlEQ" position="609.0,-110.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1IKJQsj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+      <modelElement href="RetailStoreDiscount.uml#_062tEMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <visibility xmi:id="_1IKJQ8j4EemawaXfM0NlEQ" label="+"/>
+    <literals xmi:id="_1IKJRMj4EemawaXfM0NlEQ" name="SOFTWARES">
+      <modelElement href="RetailStoreDiscount.uml#_062tEcj4EemawaXfM0NlEQ"/>
+    </literals>
+    <literals xmi:id="_1IKJRcj4EemawaXfM0NlEQ" name="HARDWARE">
+      <modelElement href="RetailStoreDiscount.uml#_062tEsj4EemawaXfM0NlEQ"/>
+    </literals>
+    <literals xmi:id="_1IKJRsj4EemawaXfM0NlEQ" name="ELECTRONICS">
+      <modelElement href="RetailStoreDiscount.uml#_062tE8j4EemawaXfM0NlEQ"/>
+    </literals>
+    <literals xmi:id="_1IKJR8j4EemawaXfM0NlEQ" name="GIFTS">
+      <modelElement href="RetailStoreDiscount.uml#_063UIMj4EemawaXfM0NlEQ"/>
+    </literals>
+    <literals xmi:id="_1IKJSMj4EemawaXfM0NlEQ" name="NEWBORN">
+      <modelElement href="RetailStoreDiscount.uml#_063UIcj4EemawaXfM0NlEQ"/>
+    </literals>
+    <literals xmi:id="_1IKJScj4EemawaXfM0NlEQ" name="OTHER">
+      <modelElement href="RetailStoreDiscount.uml#_063UIsj4EemawaXfM0NlEQ"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_1IQ28Mj4EemawaXfM0NlEQ" comments="_1IOasMj4EemawaXfM0NlEQ" targetConnectionVisual="_1IOascj4EemawaXfM0NlEQ" name="RetailCustomerType" associationsOut="_1H2AMMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_06-o4Mj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1IQ28cj4EemawaXfM0NlEQ" position="-673.0,971.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1IQ28sj4EemawaXfM0NlEQ" label="+"/>
+    <attributes xmi:id="_1IQ288j4EemawaXfM0NlEQ" name="typeId">
+      <modelElement href="RetailStoreDiscount.uml#_0-hsIMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1IQ29Mj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-iTMMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1IQ29cj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1IQ29sj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1IQ298j4EemawaXfM0NlEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1IQ2-Mj4EemawaXfM0NlEQ" name="discountPercentage">
+      <modelElement href="RetailStoreDiscount.uml#_0-i6QMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1IQ2-cj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-jhUMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1IQ2-sj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IQ2-8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1IQ2_Mj4EemawaXfM0NlEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1IQ2_cj4EemawaXfM0NlEQ" name="RetailCustomerType">
+      <modelElement href="RetailStoreDiscount.uml#_07BsMMj4EemawaXfM0NlEQ"/>
+      <keywords xmi:id="_1IQ2_sj4EemawaXfM0NlEQ" keyword="create"/>
+      <visibility xmi:id="_1IQ2_8j4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1IQ3AMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IQ3Acj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_07C6UMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1IQ3Asj4EemawaXfM0NlEQ" name="RetailCustomerType">
+          <modelElement href="RetailStoreDiscount.uml#_06-o4Mj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IQ3A8j4EemawaXfM0NlEQ" name="type">
+        <modelElement href="RetailStoreDiscount.uml#_07CTQMj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IQ3BMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IQ3Bcj4EemawaXfM0NlEQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1IQ3Bsj4EemawaXfM0NlEQ" name="discPercentage">
+        <modelElement href="RetailStoreDiscount.uml#_07CTQcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IQ3B8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IQ3CMj4EemawaXfM0NlEQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IQ3Ccj4EemawaXfM0NlEQ" name="getUserTypeId">
+      <modelElement href="RetailStoreDiscount.uml#_07C6Ucj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1IQ3Csj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IQ3C8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IQ3DMj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_07DhYMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1IQ3Dcj4EemawaXfM0NlEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_1IQ3Dsj4EemawaXfM0NlEQ" name="EMPLOYEE">
+      <modelElement href="RetailStoreDiscount.uml#_06_P8Mj4EemawaXfM0NlEQ"/>
+    </literals>
+    <literals xmi:id="_1IQ3D8j4EemawaXfM0NlEQ" name="AFFILIATE">
+      <modelElement href="RetailStoreDiscount.uml#_06_P8sj4EemawaXfM0NlEQ"/>
+    </literals>
+    <literals xmi:id="_1IQ3EMj4EemawaXfM0NlEQ" name="LOYAL_CUSTOMER">
+      <modelElement href="RetailStoreDiscount.uml#_06_3Acj4EemawaXfM0NlEQ"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1IdEMMj4EemawaXfM0NlEQ" comments="_1IZZ0Mj4EemawaXfM0NlEQ" targetConnectionVisual="_1IZZ0cj4EemawaXfM0NlEQ" name="OnlineShoppingCartItem" associationsIn="_1II7IMj4EemawaXfM0NlEQ _1IA_UMj4EemawaXfM0NlEQ _1JEIMMj4EemawaXfM0NlEQ _1JdJwMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_06tjIMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1IdEMcj4EemawaXfM0NlEQ" position="-949.0,-385.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1IdEMsj4EemawaXfM0NlEQ" label="+"/>
+    <attributes xmi:id="_1IdEM8j4EemawaXfM0NlEQ" name="itemName">
+      <modelElement href="RetailStoreDiscount.uml#_0-dasMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1IdENMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IdENcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1IdENsj4EemawaXfM0NlEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1IdEN8j4EemawaXfM0NlEQ" name="itemCost">
+      <modelElement href="RetailStoreDiscount.uml#_0-eBwMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1IdEOMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IdEOcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1IdEOsj4EemawaXfM0NlEQ" name="Double">
+        <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1IdEO8j4EemawaXfM0NlEQ" name="count">
+      <modelElement href="RetailStoreDiscount.uml#_0-eo0Mj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1IdEPMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IdEPcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1IdEPsj4EemawaXfM0NlEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1IdEP8j4EemawaXfM0NlEQ" name="onlineShoppingCategoryProducts">
+      <modelElement href="RetailStoreDiscount.uml#_0-eo0cj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1IdEQMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IdEQcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1IdEQsj4EemawaXfM0NlEQ" name="OnlineShoppingCategoryProducts">
+        <modelElement href="RetailStoreDiscount.uml#_061e8Mj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1IdEQ8j4EemawaXfM0NlEQ" name="OnlineShoppingCartItem">
+      <modelElement href="RetailStoreDiscount.uml#_06vYUMj4EemawaXfM0NlEQ"/>
+      <keywords xmi:id="_1IdERMj4EemawaXfM0NlEQ" keyword="create"/>
+      <stereotypes xmi:id="_1IdERcj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_06v_Ysj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1IdERsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IdER8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IdESMj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_06v_Y8j4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1IdEScj4EemawaXfM0NlEQ" name="OnlineShoppingCartItem">
+          <modelElement href="RetailStoreDiscount.uml#_06tjIMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1IdESsj4EemawaXfM0NlEQ" name="toString">
+      <modelElement href="RetailStoreDiscount.uml#_06xNgMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1IdES8j4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_06yboMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1IdETMj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_06ybocj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1IdETcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IdETsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IdET8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_06x0kMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1IdEUMj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1IdEUcj4EemawaXfM0NlEQ" name="OnlineShoppingCartItem">
+      <modelElement href="RetailStoreDiscount.uml#_0-DLAMj4EemawaXfM0NlEQ"/>
+      <keywords xmi:id="_1IdEUsj4EemawaXfM0NlEQ" keyword="create"/>
+      <visibility xmi:id="_1IdEU8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IdEVMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IdEVcj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-DyFsj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1IdEVsj4EemawaXfM0NlEQ" name="OnlineShoppingCartItem">
+          <modelElement href="RetailStoreDiscount.uml#_06tjIMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IdEV8j4EemawaXfM0NlEQ" name="itemName">
+        <modelElement href="RetailStoreDiscount.uml#_0-DyEMj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IdEWMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IdEWcj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1IdEWsj4EemawaXfM0NlEQ" name="itemCost">
+        <modelElement href="RetailStoreDiscount.uml#_0-DyEcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IdEW8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IdEXMj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1IdEXcj4EemawaXfM0NlEQ" name="count">
+        <modelElement href="RetailStoreDiscount.uml#_0-DyEsj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IdEXsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IdEX8j4EemawaXfM0NlEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1IdEYMj4EemawaXfM0NlEQ" name="onlineShoppingCategoryProducts">
+        <modelElement href="RetailStoreDiscount.uml#_0-DyE8j4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IdEYcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IdEYsj4EemawaXfM0NlEQ" name="OnlineShoppingCategoryProducts">
+          <modelElement href="RetailStoreDiscount.uml#_061e8Mj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_1IlnEMj4EemawaXfM0NlEQ" comments="_1IkY8Mj4EemawaXfM0NlEQ" targetConnectionVisual="_1IkY8cj4EemawaXfM0NlEQ" name="BillingCustomerInterface" subclassedBy="_1Ix0UMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_07F9oMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1IlnEcj4EemawaXfM0NlEQ" position="-719.0,1371.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1IlnEsj4EemawaXfM0NlEQ" label="+"/>
+    <operations xmi:id="_1IlnE8j4EemawaXfM0NlEQ" name="gatherRetailCustomerInfo">
+      <modelElement href="RetailStoreDiscount.uml#_09X1kMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1IlnFMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IlnFcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1IlnFsj4EemawaXfM0NlEQ" name="retailCustomer">
+        <modelElement href="RetailStoreDiscount.uml#_09X1kcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IlnF8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IlnGMj4EemawaXfM0NlEQ" name="RetailCustomer">
+          <modelElement href="RetailStoreDiscount.uml#_0637MMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1IlnGcj4EemawaXfM0NlEQ" name="printBillInvoice">
+      <modelElement href="RetailStoreDiscount.uml#_09ZDsMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1IlnGsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1IlnG8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1IlnHMj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09ZDssj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1IlnHcj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1IlnHsj4EemawaXfM0NlEQ" name="billing">
+        <modelElement href="RetailStoreDiscount.uml#_09ZDscj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1IlnH8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1IlnIMj4EemawaXfM0NlEQ" name="Billing">
+          <modelElement href="RetailStoreDiscount.uml#_06kZMMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1ImOIMj4EemawaXfM0NlEQ" name="getOnlineItemCost">
+      <modelElement href="RetailStoreDiscount.uml#_0-GOUMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1ImOIcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ImOIsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1ImOI8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-GOUsj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1ImOJMj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1ImOJcj4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_0-GOUcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1ImOJsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1ImOJ8j4EemawaXfM0NlEQ" name="List">
+          <modelElement href="RetailStoreDiscount.uml#_09PSsMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1ImOKMj4EemawaXfM0NlEQ" name="calculateTotalPurchasedItems">
+      <modelElement href="RetailStoreDiscount.uml#_0-HccMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1ImOKcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ImOKsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1ImOK8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-Hccsj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1ImOLMj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1ImOLcj4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_0-Hcccj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1ImOLsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1ImOL8j4EemawaXfM0NlEQ" name="List">
+          <modelElement href="RetailStoreDiscount.uml#_09PSsMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1ImOMMj4EemawaXfM0NlEQ" name="retailCustomerTypeDiscountApply">
+      <modelElement href="RetailStoreDiscount.uml#_0-IqkMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1ImOMcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ImOMsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1ImOM8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-Iqksj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1ImONMj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1ImONcj4EemawaXfM0NlEQ" name="retailCustomerTypeDiscountApplyCost">
+        <modelElement href="RetailStoreDiscount.uml#_0-Iqkcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1ImONsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1ImON8j4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1ImOOMj4EemawaXfM0NlEQ" name="discountsAppliedOnTotalBill">
+      <modelElement href="RetailStoreDiscount.uml#_0-JRoMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1ImOOcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1ImOOsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1ImOO8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-JRosj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1ImOPMj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1ImOPcj4EemawaXfM0NlEQ" name="discountsAppliedOnTotalBillCost">
+        <modelElement href="RetailStoreDiscount.uml#_0-JRocj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1ImOPsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1ImOP8j4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1I5JGcj4EemawaXfM0NlEQ" comments="_1IybYMj4EemawaXfM0NlEQ" targetConnectionVisual="_1IybYcj4EemawaXfM0NlEQ" name="RetailCustomerBill" associationsIn="_1Jdw0Mj4EemawaXfM0NlEQ" associationsOut="_1IrtsMj4EemawaXfM0NlEQ _1Iv_IMj4EemawaXfM0NlEQ _1I5JEMj4EemawaXfM0NlEQ" generalizations="_1Ix0UMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_07XqcMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1I5JGsj4EemawaXfM0NlEQ" position="-1982.0,1666.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1I5JG8j4EemawaXfM0NlEQ" label="+"/>
+    <attributes xmi:id="_1I5JHMj4EemawaXfM0NlEQ" defaultValue="LogManager.getLogger(RetailCustomerBill.class)" name="logger" staticAttribute="true">
+      <modelElement href="RetailStoreDiscount.uml#_0-nLsMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1I5JHcj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1I5JHsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1I5JH8j4EemawaXfM0NlEQ" name="Logger">
+        <modelElement href="RetailStoreDiscount.uml#_09hmkcj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1I5JIMj4EemawaXfM0NlEQ" name="retailCustomerUserBill">
+      <modelElement href="RetailStoreDiscount.uml#_0-nywMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1I5JIcj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-nywcj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1I5JIsj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1I5JI8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1I5JJMj4EemawaXfM0NlEQ" name="Billing">
+        <modelElement href="RetailStoreDiscount.uml#_06kZMMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1I5JJcj4EemawaXfM0NlEQ" name="retailCustomer">
+      <modelElement href="RetailStoreDiscount.uml#_0-oZ0Mj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1I5JJsj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-pA4Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1I5JJ8j4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1I5JKMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1I5JKcj4EemawaXfM0NlEQ" name="RetailCustomer">
+        <modelElement href="RetailStoreDiscount.uml#_0637MMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1I5JKsj4EemawaXfM0NlEQ" name="gatherRetailCustomerInfo">
+      <modelElement href="RetailStoreDiscount.uml#_09jbwMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1I5JK8j4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_09jbwsj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1I5JLMj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_09kC0Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1I5JLcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I5JLsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1I5JL8j4EemawaXfM0NlEQ" name="retailCustomer">
+        <modelElement href="RetailStoreDiscount.uml#_09jbwcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1I5JMMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1I5JMcj4EemawaXfM0NlEQ" name="RetailCustomer">
+          <modelElement href="RetailStoreDiscount.uml#_0637MMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1I5JMsj4EemawaXfM0NlEQ" name="printBillInvoice">
+      <modelElement href="RetailStoreDiscount.uml#_09lQ8Mj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1I5JM8j4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_09mfEMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1I5JNMj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_09mfEcj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1I5JNcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I5JNsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1I5JN8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09l4AMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1I5JOMj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1I5JOcj4EemawaXfM0NlEQ" name="bill">
+        <modelElement href="RetailStoreDiscount.uml#_09lQ8cj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1I5JOsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1I5JO8j4EemawaXfM0NlEQ" name="Billing">
+          <modelElement href="RetailStoreDiscount.uml#_06kZMMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1I5JPMj4EemawaXfM0NlEQ" name="calculateTotalPurchasedItems">
+      <modelElement href="RetailStoreDiscount.uml#_0-OxMMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1I5JPcj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-P_UMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1I5JPsj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-QmYMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1I5JP8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I5JQMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1I5JQcj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-PYQcj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1I5JQsj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1I5JQ8j4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_0-PYQMj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1I5JRMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1I5JRcj4EemawaXfM0NlEQ" name="List">
+          <modelElement href="RetailStoreDiscount.uml#_09PSsMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1I5JRsj4EemawaXfM0NlEQ" comments="_1I0QkMj4EemawaXfM0NlEQ" targetConnectionVisual="_1I0Qkcj4EemawaXfM0NlEQ" name="getTotalBillCost">
+      <modelElement href="RetailStoreDiscount.uml#_0-RNcMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1I5JR8j4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1I5JSMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1I5JScj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-RNcsj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1I5JSsj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1I5JS8j4EemawaXfM0NlEQ" name="onlineShoppingItemsList">
+        <modelElement href="RetailStoreDiscount.uml#_0-RNccj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1I5JTMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1I5JTcj4EemawaXfM0NlEQ" name="List">
+          <modelElement href="RetailStoreDiscount.uml#_09PSsMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1I5JTsj4EemawaXfM0NlEQ" name="retailCustomerTypeDiscountApply">
+      <modelElement href="RetailStoreDiscount.uml#_0-SbkMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1I5JT8j4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-TCoMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1I5JUMj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-TCocj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1I5JUcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I5JUsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1I5JU8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-Sbksj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1I5JVMj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1I5JVcj4EemawaXfM0NlEQ" name="cost">
+        <modelElement href="RetailStoreDiscount.uml#_0-Sbkcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1I5JVsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1I5JV8j4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1I5JWMj4EemawaXfM0NlEQ" name="discountsAppliedOnTotalBill">
+      <modelElement href="RetailStoreDiscount.uml#_0-TpsMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1I5JWcj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-UQwMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1I5JWsj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-UQwcj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1I5JW8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I5JXMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1I5JXcj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-Tpssj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1I5JXsj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1I5JX8j4EemawaXfM0NlEQ" name="billCost">
+        <modelElement href="RetailStoreDiscount.uml#_0-Tpscj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1I5JYMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1I5JYcj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1I5JYsj4EemawaXfM0NlEQ" name="getOnlineItemCost">
+      <modelElement href="RetailStoreDiscount.uml#_0-U30Mj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1I5JY8j4EemawaXfM0NlEQ" name="LegacyStyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-Ve4Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1I5JZMj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-WF8cj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1I5JZcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1I5JZsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1I5JZ8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-U30sj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1I5JaMj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1I5Jacj4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_0-U30cj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1I5Jasj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1I5Ja8j4EemawaXfM0NlEQ" name="List">
+          <modelElement href="RetailStoreDiscount.uml#_09PSsMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1JJAsMj4EemawaXfM0NlEQ" name="BillingCustomerQuery" associationsIn="_1JfmAMj4EemawaXfM0NlEQ" associationsOut="_1JEIMMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_07MEQMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1JJAscj4EemawaXfM0NlEQ" position="558.0,245.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1JJAssj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+      <modelElement href="RetailStoreDiscount.uml#_07NSYMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1JJAs8j4EemawaXfM0NlEQ" name="Annotations">
+      <modelElement href="RetailStoreDiscount.uml#_07QVsMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <visibility xmi:id="_1JJAtMj4EemawaXfM0NlEQ" label="+"/>
+    <attributes xmi:id="_1JJAtcj4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+      <modelElement href="RetailStoreDiscount.uml#_0-kvcMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1JJAtsj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JJAt8j4EemawaXfM0NlEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1JJAuMj4EemawaXfM0NlEQ" name="OnlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_06tjIMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JJAucj4EemawaXfM0NlEQ" name="totalBill">
+      <modelElement href="RetailStoreDiscount.uml#_0-lWgMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1JJAusj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JJAu8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JJAvMj4EemawaXfM0NlEQ" name="Double">
+        <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JJAvcj4EemawaXfM0NlEQ" name="totalBillAfterRetailCustomerTypeDiscount">
+      <modelElement href="RetailStoreDiscount.uml#_0-l9kMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1JJAvsj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JJAv8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JJAwMj4EemawaXfM0NlEQ" name="Double">
+        <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JJAwcj4EemawaXfM0NlEQ" name="finalbillCost">
+      <modelElement href="RetailStoreDiscount.uml#_0-mkoMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1JJAwsj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JJAw8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JJAxMj4EemawaXfM0NlEQ" name="Double">
+        <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1JJAxcj4EemawaXfM0NlEQ" name="Build">
+      <modelElement href="RetailStoreDiscount.uml#_07PHkMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JJAxsj4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_07PuoMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JJAx8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JJAyMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JJAycj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09dVIMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JJAysj4EemawaXfM0NlEQ" name="Billing">
+          <modelElement href="RetailStoreDiscount.uml#_06kZMMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1JJAy8j4EemawaXfM0NlEQ" name="shoopingItemList">
+      <modelElement href="RetailStoreDiscount.uml#_0-KfwMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JJAzMj4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-LG0Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JJAzcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JJAzsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JJAz8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-Kfwsj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JJA0Mj4EemawaXfM0NlEQ" name="BillingCustomerQuery">
+          <modelElement href="RetailStoreDiscount.uml#_07MEQMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JJA0cj4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_0-Kfwcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1JJA0sj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1JJA08j4EemawaXfM0NlEQ" name="List">
+          <modelElement href="RetailStoreDiscount.uml#_09PSsMj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1JJA1Mj4EemawaXfM0NlEQ" name="totalBill">
+      <modelElement href="RetailStoreDiscount.uml#_0-Lt4cj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JJA1cj4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-MU8Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JJA1sj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JJA18j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JJA2Mj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-Lt48j4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JJA2cj4EemawaXfM0NlEQ" name="BillingCustomerQuery">
+          <modelElement href="RetailStoreDiscount.uml#_07MEQMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JJA2sj4EemawaXfM0NlEQ" name="totalBill">
+        <modelElement href="RetailStoreDiscount.uml#_0-Lt4sj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1JJA28j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1JJA3Mj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1JJA3cj4EemawaXfM0NlEQ" name="totalBillAfterRetailCustomerTypeDiscount">
+      <modelElement href="RetailStoreDiscount.uml#_0-M8AMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JJA3sj4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-M8A8j4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JJA38j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JJA4Mj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JJA4cj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-M8Asj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JJA4sj4EemawaXfM0NlEQ" name="BillingCustomerQuery">
+          <modelElement href="RetailStoreDiscount.uml#_07MEQMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JJA48j4EemawaXfM0NlEQ" name="totalBillAfterRetailCustomerTypeDiscount">
+        <modelElement href="RetailStoreDiscount.uml#_0-M8Acj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1JJA5Mj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1JJA5cj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1JJA5sj4EemawaXfM0NlEQ" name="finalbillCost">
+      <modelElement href="RetailStoreDiscount.uml#_0-NjEMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JJA58j4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_0-OKIMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JJA6Mj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JJA6cj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JJA6sj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_0-NjEsj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JJA68j4EemawaXfM0NlEQ" name="BillingCustomerQuery">
+          <modelElement href="RetailStoreDiscount.uml#_07MEQMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JJA7Mj4EemawaXfM0NlEQ" name="finalbillCost">
+        <modelElement href="RetailStoreDiscount.uml#_0-NjEcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1JJA7cj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1JJA7sj4EemawaXfM0NlEQ" name="Double">
+          <modelElement href="RetailStoreDiscount.uml#_09-Sgcj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1JVN8Mj4EemawaXfM0NlEQ" name="RetailCustomerQuery" associationsIn="_1JgNEMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_07hbcMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1JVN8cj4EemawaXfM0NlEQ" position="-563.0,505.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1JVN8sj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+      <modelElement href="RetailStoreDiscount.uml#_07ipkMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1JVN88j4EemawaXfM0NlEQ" name="Annotations">
+      <modelElement href="RetailStoreDiscount.uml#_07niEMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <visibility xmi:id="_1JVN9Mj4EemawaXfM0NlEQ" label="+"/>
+    <attributes xmi:id="_1JVN9cj4EemawaXfM0NlEQ" name="firstName">
+      <modelElement href="RetailStoreDiscount.uml#_0-pn8Mj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1JVN9sj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JVN98j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JVN-Mj4EemawaXfM0NlEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JVN-cj4EemawaXfM0NlEQ" name="lastName">
+      <modelElement href="RetailStoreDiscount.uml#_0-qPAMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1JVN-sj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JVN-8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JVN_Mj4EemawaXfM0NlEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JVN_cj4EemawaXfM0NlEQ" name="phone">
+      <modelElement href="RetailStoreDiscount.uml#_0-q2EMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1JVN_sj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JVN_8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JVOAMj4EemawaXfM0NlEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JVOAcj4EemawaXfM0NlEQ" name="userType">
+      <modelElement href="RetailStoreDiscount.uml#_0-rdIMj4EemawaXfM0NlEQ"/>
+      <visibility xmi:id="_1JVOAsj4EemawaXfM0NlEQ" label="-"/>
+      <cardinality xmi:id="_1JVOA8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JVOBMj4EemawaXfM0NlEQ" name="RetailCustomerType">
+        <modelElement href="RetailStoreDiscount.uml#_06-o4Mj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1JVOBcj4EemawaXfM0NlEQ" name="firstName">
+      <modelElement href="RetailStoreDiscount.uml#_07jQoMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JVOBsj4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_07j3sMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JVOB8j4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JVOCMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JVOCcj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09qJcMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JVOCsj4EemawaXfM0NlEQ" name="RetailCustomerQuery">
+          <modelElement href="RetailStoreDiscount.uml#_07hbcMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JVOC8j4EemawaXfM0NlEQ" name="firstname">
+        <modelElement href="RetailStoreDiscount.uml#_07jQocj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1JVODMj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1JVODcj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1JVODsj4EemawaXfM0NlEQ" name="lastName">
+      <modelElement href="RetailStoreDiscount.uml#_07kewMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JVOD8j4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_07lF0Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JVOEMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JVOEcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JVOEsj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09qJccj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JVOE8j4EemawaXfM0NlEQ" name="RetailCustomerQuery">
+          <modelElement href="RetailStoreDiscount.uml#_07hbcMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JVOFMj4EemawaXfM0NlEQ" name="lastName">
+        <modelElement href="RetailStoreDiscount.uml#_07kewcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1JVOFcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1JVOFsj4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1JVOF8j4EemawaXfM0NlEQ" name="phone">
+      <modelElement href="RetailStoreDiscount.uml#_07ls4Mj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JVOGMj4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_07mT8Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JVOGcj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JVOGsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JVOG8j4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09qJcsj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JVOHMj4EemawaXfM0NlEQ" name="RetailCustomerQuery">
+          <modelElement href="RetailStoreDiscount.uml#_07hbcMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JVOHcj4EemawaXfM0NlEQ" name="phone">
+        <modelElement href="RetailStoreDiscount.uml#_07ls4cj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1JVOHsj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1JVOH8j4EemawaXfM0NlEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1JVOIMj4EemawaXfM0NlEQ" name="build">
+      <modelElement href="RetailStoreDiscount.uml#_07mT8cj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JVOIcj4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_07m7AMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JVOIsj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JVOI8j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JVOJMj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09rXkMj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JVOJcj4EemawaXfM0NlEQ" name="RetailCustomer">
+          <modelElement href="RetailStoreDiscount.uml#_0637MMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1JVOJsj4EemawaXfM0NlEQ" name="userType">
+      <modelElement href="RetailStoreDiscount.uml#_09qwgMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JVOJ8j4EemawaXfM0NlEQ" name="StyledElement">
+        <modelElement href="RetailStoreDiscount.uml#_09qwg8j4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JVOKMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JVOKcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JVOKsj4EemawaXfM0NlEQ">
+        <modelElement href="RetailStoreDiscount.uml#_09qwgsj4EemawaXfM0NlEQ"/>
+        <type xmi:id="_1JVOK8j4EemawaXfM0NlEQ" name="RetailCustomerQuery">
+          <modelElement href="RetailStoreDiscount.uml#_07hbcMj4EemawaXfM0NlEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1JVOLMj4EemawaXfM0NlEQ" name="userType">
+        <modelElement href="RetailStoreDiscount.uml#_09qwgcj4EemawaXfM0NlEQ"/>
+        <cardinality xmi:id="_1JVOLcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_1JVOLsj4EemawaXfM0NlEQ" name="RetailCustomerType">
+          <modelElement href="RetailStoreDiscount.uml#_06-o4Mj4EemawaXfM0NlEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1JoI4Mj4EemawaXfM0NlEQ" name="RetailStoreDiscountApplicationTests" associationsOut="_1JdJwMj4EemawaXfM0NlEQ _1Jdw0Mj4EemawaXfM0NlEQ _1Je-8Mj4EemawaXfM0NlEQ _1JfmAMj4EemawaXfM0NlEQ _1JgNEMj4EemawaXfM0NlEQ">
+    <modelElement href="RetailStoreDiscount.uml#_07qlYMj4EemawaXfM0NlEQ"/>
+    <visualProperties xmi:id="_1JoI4cj4EemawaXfM0NlEQ" position="-1205.0,1221.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1JoI4sj4EemawaXfM0NlEQ" name="LegacyStyledElement">
+      <modelElement href="RetailStoreDiscount.uml#_07rMcMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1JoI48j4EemawaXfM0NlEQ" name="Annotations">
+      <modelElement href="RetailStoreDiscount.uml#_072LkMj4EemawaXfM0NlEQ"/>
+    </stereotypes>
+    <visibility xmi:id="_1JoI5Mj4EemawaXfM0NlEQ" label="+"/>
+    <attributes xmi:id="_1JoI5cj4EemawaXfM0NlEQ" name="onlineShoppingCartItem">
+      <modelElement href="RetailStoreDiscount.uml#_0-sEMMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoI5sj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-srQMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoI58j4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1JoI6Mj4EemawaXfM0NlEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1JoI6cj4EemawaXfM0NlEQ" name="OnlineShoppingCartItem">
+        <modelElement href="RetailStoreDiscount.uml#_06tjIMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JoI6sj4EemawaXfM0NlEQ" name="retailCustomerBill">
+      <modelElement href="RetailStoreDiscount.uml#_0-tSUMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoI68j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-t5YMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoI7Mj4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1JoI7cj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JoI7sj4EemawaXfM0NlEQ" name="RetailCustomerBill">
+        <modelElement href="RetailStoreDiscount.uml#_07XqcMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JoI78j4EemawaXfM0NlEQ" name="billing">
+      <modelElement href="RetailStoreDiscount.uml#_0-t5Ysj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoI8Mj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-vHgMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoI8cj4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1JoI8sj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JoI88j4EemawaXfM0NlEQ" name="Billing">
+        <modelElement href="RetailStoreDiscount.uml#_06kZMMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JoI9Mj4EemawaXfM0NlEQ" name="billingCustomerQuery">
+      <modelElement href="RetailStoreDiscount.uml#_0-vHgsj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoI9cj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-vukMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoI9sj4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1JoI98j4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JoI-Mj4EemawaXfM0NlEQ" name="BillingCustomerQuery">
+        <modelElement href="RetailStoreDiscount.uml#_07MEQMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1JoI-cj4EemawaXfM0NlEQ" name="retailCustomerQuery">
+      <modelElement href="RetailStoreDiscount.uml#_0-wVoMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoI-sj4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_0-w8sMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoI-8j4EemawaXfM0NlEQ" label="~"/>
+      <cardinality xmi:id="_1JoI_Mj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_1JoI_cj4EemawaXfM0NlEQ" name="RetailCustomerQuery">
+        <modelElement href="RetailStoreDiscount.uml#_07hbcMj4EemawaXfM0NlEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1JoI_sj4EemawaXfM0NlEQ" name="contextLoads">
+      <modelElement href="RetailStoreDiscount.uml#_07rzgMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoI_8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07sakMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJAMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJAcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJAsj4EemawaXfM0NlEQ" name="main">
+      <modelElement href="RetailStoreDiscount.uml#_07saksj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJA8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07tBoMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJBMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJBcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJBsj4EemawaXfM0NlEQ" name="testEmployeeRetailCustomerType">
+      <modelElement href="RetailStoreDiscount.uml#_07tBosj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJB8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07tosMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJCMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJCcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJCsj4EemawaXfM0NlEQ" name="testAffiliateRetailCustomerType">
+      <modelElement href="RetailStoreDiscount.uml#_07tossj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJC8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07uPwMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJDMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJDcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJDsj4EemawaXfM0NlEQ" name="testLoyalRetailCustomerType">
+      <modelElement href="RetailStoreDiscount.uml#_07uPwsj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJD8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07u20Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJEMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJEcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJEsj4EemawaXfM0NlEQ" name="testOnlineShoppingCategoryProducts">
+      <modelElement href="RetailStoreDiscount.uml#_07u20sj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJE8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07vd4Mj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJFMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJFcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJFsj4EemawaXfM0NlEQ" name="testTotalPurchasedItems">
+      <modelElement href="RetailStoreDiscount.uml#_07wE8Mj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJF8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07wsAMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJGMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJGcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJGsj4EemawaXfM0NlEQ" name="testEmployeeRetailCustomerDiscount">
+      <modelElement href="RetailStoreDiscount.uml#_07wsAsj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJG8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07xTEMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJHMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJHcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJHsj4EemawaXfM0NlEQ" name="testAffiliateRetailCustomerDiscount">
+      <modelElement href="RetailStoreDiscount.uml#_07x6IMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJH8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07yhMMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJIMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJIcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJIsj4EemawaXfM0NlEQ" name="testLoyalRetailCustomerDiscount">
+      <modelElement href="RetailStoreDiscount.uml#_07yhMsj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJI8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_07zIQMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJJMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJJcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJJsj4EemawaXfM0NlEQ" name="testPrintInvoice">
+      <modelElement href="RetailStoreDiscount.uml#_07zvUcj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJJ8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_070WYMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJKMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJKcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JoJKsj4EemawaXfM0NlEQ" name="before">
+      <modelElement href="RetailStoreDiscount.uml#_0709cMj4EemawaXfM0NlEQ"/>
+      <stereotypes xmi:id="_1JoJK8j4EemawaXfM0NlEQ" name="Annotations">
+        <modelElement href="RetailStoreDiscount.uml#_071kgMj4EemawaXfM0NlEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_1JoJLMj4EemawaXfM0NlEQ" label="+"/>
+      <cardinality xmi:id="_1JoJLcj4EemawaXfM0NlEQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -2,11 +2,9 @@ package com.kunal.retailstore.entity;
 
 /**
  * @author kkunal 26-Aug-2019
- *
  */
 
 public enum RetailCustomerType {
-
 	EMPLOYEE(1, 30), AFFILIATE(2, 10), LOYAL_CUSTOMER(3, 5);
 
 	private final int typeId;
@@ -24,5 +22,4 @@ public enum RetailCustomerType {
 	public int getUserTypeId() {
 		return this.typeId;
 	}
-
 }

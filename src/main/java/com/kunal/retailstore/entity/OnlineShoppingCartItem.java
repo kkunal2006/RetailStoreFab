@@ -1,15 +1,10 @@
-/**
- * 
- */
 package com.kunal.retailstore.entity;
 
 /**
  * @author kkunal 26-Aug-2019
- *
  */
 
 public class OnlineShoppingCartItem {
-
 	private String itemName;
 	private Double itemCost;
 	private int count;
@@ -17,18 +12,10 @@ public class OnlineShoppingCartItem {
 	private OnlineShoppingCategoryProducts onlineShoppingCategoryProducts;
 
 	public OnlineShoppingCartItem() {
-		super();
 	}
 
-	/**
-	 * @param itemName
-	 * @param itemCost
-	 * @param count
-	 * @param onlineShoppingCategoryProducts
-	 */
 	public OnlineShoppingCartItem(String itemName, Double itemCost, int count,
 			OnlineShoppingCategoryProducts onlineShoppingCategoryProducts) {
-		super();
 		this.itemName = itemName;
 		this.itemCost = itemCost;
 		this.count = count;
@@ -106,5 +93,4 @@ public class OnlineShoppingCartItem {
 		builder.append("]");
 		return builder.toString();
 	}
-
 }

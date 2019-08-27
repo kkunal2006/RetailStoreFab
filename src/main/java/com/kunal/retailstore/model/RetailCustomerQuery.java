@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.kunal.retailstore.model;
 
 import org.springframework.stereotype.Component;
@@ -11,20 +8,14 @@ import com.kunal.retailstore.entity.RetailCustomerType;
 
 /**
  * @author kkunal 26-Aug-2019
- *
  */
 
 @Component
 public class RetailCustomerQuery {
-
 	private String firstName;
 	private String lastName;
 	private String phone;
 	private RetailCustomerType userType;
-
-	public RetailCustomerQuery() {
-		super();
-	}
 
 	public RetailCustomerQuery firstName(String firstname) {
 		this.firstName = firstname;
